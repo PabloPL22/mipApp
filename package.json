@@ -1,5 +1,6 @@
 {
-  "description": "NativeScript Application",
+  "description": "App to control a MIP robot",
+  "version": "0.1.0_beta_5",
   "license": "SEE LICENSE IN LICENSE.txt",
   "readme": "NativeScript Application",
   "repository": "https://github.com/ngBraves/mipApp",
