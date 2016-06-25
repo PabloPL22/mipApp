@@ -1,6 +1,6 @@
 #MIP App
 ##Introduction
-MIP app is an hibrid and native movil application coded in NativeScript and Angular 2, to learn how, this two frameworks,
+MIP app is an hibrid and native mobile application coded in NativeScript and Angular 2, to learn how, this two frameworks,
 can use the blue tooth of the devices for IoT projects. In this case, we have coded an app to control a [MIP Robot](http://wowwee.com/mip/) from Android and IOS smartphones
 
 ##ngBraves
@@ -31,7 +31,7 @@ npm install
 
 ##How configure MIP App
 To try the MIP app, first, you need a MIP Robot. Think this is only a proof of concept. Our intention never was
-to code a complete and configurable app to comunicate our movil devices with any machine that is around us.
+to code a complete and configurable app to comunicate our mobile devices with any machine that is around us.
 
 So, for the lucky ones that have a MIP with them, the first step is to get the UUID. We use the command
 *cylon-ble-scan* of the library [cylon-ble](https://github.com/hybridgroup/cylon-ble) for it. If your SO is Windows,
