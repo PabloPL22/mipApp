@@ -1,0 +1,21 @@
+<StackLayout>
+    <StackLayout orientation="horizontal">
+        <Image src="~/images/up.png" (tap)="goForward()" width="75" height="75" margin="20"></Image>
+    </StackLayout>
+
+    <StackLayout orientation="horizontal">
+        <Image src="~/images/left.png" (tap)="turnLeft()" width="75" height="75" margin="20"></Image>
+        <Image src="~/images/denied.png" (tap)="stop()" width="75" height="75" margin="20"></Image>
+        <Image src="~/images/right.png" (tap)="turnRight()" width="75" height="75" margin="20"></Image>
+    </StackLayout>
+
+    <StackLayout orientation="horizontal">
+        <Image src="~/images/down.png" (tap)="goBackward()" width="75" height="75" margin="20"></Image>
+    </StackLayout>
+
+    <Label text="Speed {{speedSliderValue | number:'0.0-0'}}" class="message"></Label>
+    <Slider [(ngModel)]="speedSliderValue" minValue="1" maxValue="30" margin="0,10,0,10"></Slider>
+
+    <Label [text]="message" class="message" textWrap="true"></Label>
+
+</StackLayout>

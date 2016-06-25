@@ -1,0 +1,46 @@
+{
+	"nativescript": {
+		"id": "org.nativescript.helloworldng"
+	},
+	"name": "mipApp",
+	"main": "main.js",
+	"version": "0.1.0 alpha 1",
+	"author": "ngBraves <https://github.com/ngBraves>",
+	"description": "Example of native app to control mip robot",
+	"license": "MIT",
+	"keywords": [
+		"telerik",
+		"mobile",
+		"angular",
+		"nativescript",
+		"{N}",
+		"tns",
+		"appbuilder",
+		"template",
+		"ngBraves",
+		"MIP",
+		"mip"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ngBraves/mipApp"
+	},
+	"homepage": "https://github.com/ngBraves/mipApp",
+	"android": {
+		"v8Flags": "--expose_gc"
+	},
+	"dependencies": {
+		"@angular/common": "2.0.0-rc.1",
+		"@angular/compiler": "2.0.0-rc.1",
+		"@angular/core": "2.0.0-rc.1",
+		"@angular/router-deprecated": "2.0.0-rc.1",
+		"@angular/platform-browser": "2.0.0-rc.1",
+		"@angular/platform-browser-dynamic": "2.0.0-rc.1",
+		"@angular/platform-server": "2.0.0-rc.1",
+		"nativescript-angular": "0.1.1",
+		"tns-core-modules": "^2.0.0"
+	},
+	"devDependencies": {
+		"nativescript-dev-typescript": "^0.3.2"
+	}
+}

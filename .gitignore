@@ -1,0 +1,5 @@
+node_modules
+.idea
+platforms
+app/*.js
+app/*.js.map
